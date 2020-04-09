@@ -1,5 +1,6 @@
 # Kaggle Competition
-For the task I want to achieve I choose the [ethical sub-question.](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks?taskId=563).
+For the task I want to achieve I choose the [ethical sub-question](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks?taskId=563).
+
 There are different questions:
    1. Efforts to articulate and translate existing ethical principles and standards to salient issues in COVID-2019
    2. Efforts to embed ethics across all thematic areas, engage with novel ethical issues that arise and coordinate to minimize duplication of oversight
