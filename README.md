@@ -1,13 +1,15 @@
 # Kaggle Competition
-For the task I want to achieve I choose the [ethical sub-question.](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks?taskId=563).
+For the task I want to achieve I choose the [ethical sub-question](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks?taskId=563).
+
 There are different questions:
    1. Efforts to articulate and translate existing ethical principles and standards to salient issues in COVID-2019
-   2. Efforts to embed ethics across all thematic areas, engage with novel ethical issues that arise and coordinate to minimize duplication of oversight
-    3. Efforts to support sustained education, access, and capacity building in the area of ethics
-    4. Efforts to establish a team at WHO that will be integrated within multidisciplinary research and operational platforms and that will connect with existing and expanded global networks of social sciences.
-    5. Efforts to develop qualitative assessment frameworks to systematically collect information related to local barriers and enablers for the uptake and adherence to public health measures for prevention and control. This includes the rapid identification of the secondary impacts of these measures. (e.g. use of surgical masks, modification of health seeking behaviors for SRH, school closures)
-    6. Efforts to identify how the burden of responding to the outbreak and implementing public health measures affects the physical and psychological health of those providing care for Covid-19 patients and identify the immediate needs that must be addressed.
-    7. Efforts to identify the underlying drivers of fear, anxiety and stigma that fuel misinformation and rumor, particularly through social media.
+   2. Efforts to embed ethics across all thematic areas, engage with novel ethical issues that arise and coordinate to minimize duplication of oversight.
+   
+   3. Efforts to support sustained education, access, and capacity building in the area of ethics
+   4. Efforts to establish a team at WHO that will be integrated within multidisciplinary research and operational platforms and that will connect with existing and expanded global networks of social sciences.
+   5. Efforts to develop qualitative assessment frameworks to systematically collect information related to local barriers and enablers for the uptake and adherence to public health measures for prevention and control. This includes the rapid identification of the secondary impacts of these measures. (e.g. use of surgical masks, modification of health seeking behaviors for SRH, school closures)
+   6. Efforts to identify how the burden of responding to the outbreak and implementing public health measures affects the physical and psychological health of those providing care for Covid-19 patients and identify the immediate needs that must be addressed.
+   7. Efforts to identify the underlying drivers of fear, anxiety and stigma that fuel misinformation and rumor, particularly through social media.
 
 
 ## Model Idea
