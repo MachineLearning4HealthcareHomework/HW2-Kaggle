@@ -43,17 +43,22 @@ For the sub-questions with a specialized topic, our best solution would be the d
 
 For the other sub-questions we have to get the topic distribution of their query text, e.g. the query text for subquestion 4 is "education", this would give the distribution [0,0,0.1,0.2,0.2,0.1,0,0.3,0.1,0]. We now search the documents which best match that distribution.
 
-## Motivation
+## Model Motivation
 I choose this method, because I think the unsupervised nature of it is needed to correctly explore such a task and it does not need as complex and resource hungry algorithms as transformers for an attempt that probably fails. Yet, I can still try something new and use some NLP practices.
 
 ## Preprocessing
-First, I want to use part of speech to get better tokens with less ambiguity, then I will lemmatize, since for this task, I see no benefit in discriminating between the same word group. Afterwards, I will remove stopwords, before making bigrams and then give them over as tokens to the model.
+We try to get rid of some words/phrases, which do not add anything of interest for our problem, like the copyright remark.
+Next, we utilize part of speech tagging to relieve some ambiguity from words, this means we can get a better distinction in cases like "I dream of sleeping." vs. "Sleep is my dream.".
+Afterwards, together with a stop words list, the tags are used to get rid of stop words and punctuation.
+Since there is no reason apparent to distinguish between different cases of the same word, we use lemmatization to make our vocabulary smaller. E.g. "sleeps" and "sleeping"
+As a last step we make bigrams out of the different words to get a bit more information about the structure of the text.
+In the end, we do not have a simple bag of words model, but a bag of bigrams of lemmatized, non-stop, non-symbol word with their part of speech.  
 
 ## The different priors
 1. Find ethical principles in other literature
 2. Same embedding as old problems, but how to differ?
 3. SexEd in Africa?
-4. NER (AllenNLP-thing) with entitites that are in the same context as WHO and have WHO in their context. 
+4. NER (AllenNLP-thing) with entitites that are in the same context as WHO and have WHO in their context.
 5. Find other frameworks?
 6. Is there also research done in this area? Otherwise use the semantic parsing, where a patient is the patient/object of an actor.
-7. There is enough psychological research done in that field that could be used as a prior 
+7. There is enough psychological research done in that field that could be used as a prior
